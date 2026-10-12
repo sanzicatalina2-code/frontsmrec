@@ -1,0 +1,39 @@
+body {background-image: url('../imagen/fondo.jpeg');
+ background-attachment: fixed;
+ font-size: 2rem;
+ text-align: center;
+ text-decoration: underline;
+    text-decoration-color: #682B22; /* Cambia el color del subrayado (ej. rojo Netflix) */
+    text-decoration-thickness: 3px;  /* Cambia el grosor de la línea */
+    text-underline-offset: 5px;
+}
+
+h1 {color: brown;}
+
+ul {
+  text-align: left;
+}
+
+ol{
+  text-align: left;
+}
+
+.marron  {color: #714204;}
+
+.bordo {color: #A10606;}
+.imagen-personalizada {
+    width: 500px;
+    height: auto;
+    border-radius: 8px; /* Opcional: para redondear un poco los bordes */
+}
+
+
+h1 {
+    font-family: 'Bebas Neue', 'Helvetica Neue', Arial, sans-serif; /* Tipografía sans-serif gruesa */
+    color: #563B20;               /* Rojo característico */
+    font-size: 4rem;              /* Tamaño grande para el título */
+    font-weight: bold;            /* Texto en negrita */
+    text-transform: uppercase;    /* Convierte el texto automáticamente a mayúsculas */
+    letter-spacing: 2px;          /* Espaciado ligeramente amplio entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra sutil para darle relieve */
+}
